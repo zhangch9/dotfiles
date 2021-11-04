@@ -1,0 +1,11 @@
+Host *
+  # keeps connections alive
+  TCPKeepAlive yes
+  ServerAliveInterval 60
+  ServerAliveCountMax 6
+  # uses compression in case of low-bandwidth connections
+  Compression yes
+  # enables multiplexing
+  ControlMaster auto
+  ControlPath ~/.ssh/control_sockets/%r@%h:%p
+  ControlPersist yes

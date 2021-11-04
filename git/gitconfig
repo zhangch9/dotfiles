@@ -1,0 +1,9 @@
+[user]
+    name = Chenhui Zhang
+    email = zhang.chenhui@outlook.com
+[core]
+    editor = vim
+[pull]
+    rebase = true
+[branch]
+    autosetuprebase = always

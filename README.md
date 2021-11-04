@@ -1,3 +1,8 @@
-## Introduction
+# Dotfiles
 
-Configuration files for [vim](https://www.vim.org/), [neovim](https://neovim.io/), and [tmux](https://github.com/tmux/tmux).
+Configuration files for the following software:
+
+- [git](./git)
+- [mpv](./mpv)
+- [ssh](./ssh)
+- [Zellij](./zellij)
