@@ -3,5 +3,7 @@
 ## Usage
 
 ```bash
-ln -s zellij ${XDG_CONFIG_HOME}/zellij
+# (Optional) backup the existing configuration directory
+mv ${XDG_CONFIG_HOME}/zellij ${XDG_CONFIG_HOME}/zellij.bak
+ln -s $(pwd) ${XDG_CONFIG_HOME}
 ```

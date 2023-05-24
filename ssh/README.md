@@ -3,6 +3,8 @@
 ## Usage
 
 ```bash
+# (Optional) backup the existing configuration file
+mv ${HOME}/.ssh/config ${HOME}/.ssh/config.bak
 cp config ${HOME}/.ssh/config
 ```
 

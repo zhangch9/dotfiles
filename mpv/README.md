@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-# backup old configuration files if exists
+# (Optional) backup the existing configuration directory
 mv ${XDG_CONFIG_HOME}/mpv ${XDG_CONFIG_HOME}/mpv.bak
-ln -s mpv ${XDG_CONFIG_HOME}/mpv
+ln -s $(pwd) ${XDG_CONFIG_HOME}
 ```
