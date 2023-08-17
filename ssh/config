@@ -7,5 +7,5 @@ Host *
   Compression yes
   # enables multiplexing
   ControlMaster auto
-  ControlPath ~/.ssh/control_sockets/%r@%h:%p
+  ControlPath ~/.ssh/sockets/%r@%h:%p
   ControlPersist yes

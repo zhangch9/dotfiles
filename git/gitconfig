@@ -1,9 +1,13 @@
 [user]
-    name = Chenhui Zhang
-    email = zhang.chenhui@outlook.com
+    name = "Chenhui Zhang"
+    email = "zhang.chenhui@outlook.com"
 [core]
-    editor = vim
+    editor = "vim"
+[init]
+    defaultBranch = "main"
+[branch]
+    autoSetupRebase = "always"
 [pull]
     rebase = true
-[branch]
-    autosetuprebase = always
+[http "https://github.com"]
+    sslVerify = false
