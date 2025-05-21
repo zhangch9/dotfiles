@@ -1,4 +1,4 @@
-# The `config` file for OpenSSH clients
+# The `config` file for [OpenSSH](https://www.openssh.com/) clients
 
 ## Usage
 
@@ -10,5 +10,5 @@ cp config ${HOME}/.ssh/config
 
 ## Reference
 
-[ssh_config](https://linux.die.net/man/5/ssh_config)
-[The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+- [ssh_config](https://man.openbsd.org/ssh_config)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)

@@ -5,5 +5,5 @@
 ```bash
 # (Optional) backup the existing configuration directory
 mv ${XDG_CONFIG_HOME}/zellij ${XDG_CONFIG_HOME}/zellij.bak
-ln -s $(pwd) ${XDG_CONFIG_HOME}
+ln -s $(pwd -P) ${XDG_CONFIG_HOME}
 ```

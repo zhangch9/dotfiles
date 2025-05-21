@@ -1,6 +1,11 @@
+# TODO: fill in your name and email address
 [user]
-    name = "Chenhui Zhang"
-    email = "zhang.chenhui@outlook.com"
+    name = "<NAME>"
+    email = "<EMAIL>"
+[commit]
+    gpgsign = true
+[gpg]
+    format = "ssh"
 [core]
     editor = "vim"
 [init]

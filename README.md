@@ -2,9 +2,9 @@
 
 Configuration files for the following software:
 
-- [alacritty](alacritty)
+- [Alacritty](alacritty)
 - [git](git)
-- [hatch](hatch)
+- [Hatch](hatch)
 - [mpv](mpv)
 - [ssh](ssh)
 - [Zellij](zellij)

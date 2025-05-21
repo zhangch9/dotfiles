@@ -7,5 +7,7 @@ Host *
   Compression yes
   # enables multiplexing
   ControlMaster auto
-  ControlPath ~/.ssh/sockets/%r@%h:%p
+  ControlPath ~/.ssh/sockets/%C
   ControlPersist yes
+  # forwards the auth agent to the remote
+  ForwardAgent yes
