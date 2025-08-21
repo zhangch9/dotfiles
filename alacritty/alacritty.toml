@@ -1,32 +1,28 @@
 [env]
 TERM = "xterm-256color"
 
+
+[window]
+option_as_alt = "OnlyLeft" # * macOS only
+startup_mode = "Maximized"
+
+
+# * For default keybindings, see https://alacritty.org/config-alacritty-bindings.html
 [[keyboard.bindings]]
 action = "ToggleViMode"
 key = "Space"
 mode = "~Search"
 mods = "Shift|Command"
 
-[[keyboard.bindings]]
-action = "IncreaseFontSize"
-key = "Equals"
-mods = "Command"
 
-[[keyboard.bindings]]
-action = "DecreaseFontSize"
-key = "Minus"
-mods = "Command"
-
+# * disables `Quit` action
 [[keyboard.bindings]]
 action = "None"
 key = "Q"
 mods = "Command"
 
+
 [[keyboard.bindings]]
 action = "None"
 key = "W"
 mods = "Command"
-
-[window]
-option_as_alt = "OnlyLeft"
-startup_mode = "Maximized"

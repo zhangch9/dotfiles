@@ -6,7 +6,20 @@ indent-width = 4
 
 
 [lint]
-select = ["ARG", "B", "E", "EM", "F", "FBT", "INP", "Q", "TID", "TRY"]
+select = [
+  "ARG",
+  "B",
+  "E",
+  "EM",
+  "F",
+  "FBT",
+  "INP",
+  "Q",
+  "RET",
+  "S",
+  "TID",
+  "TRY",
+]
 preview = false
 
 
