@@ -39,5 +39,5 @@
 
 ## Reference
 
-[`hatch-vcs`](https://github.com/ofek/hatch-vcs)
-[Allowing direct references](https://hatch.pypa.io/latest/config/metadata/#allowing-direct-references)
+- [`hatch-vcs`](https://github.com/ofek/hatch-vcs)
+- [Allowing direct references](https://hatch.pypa.io/latest/config/metadata/#allowing-direct-references)

@@ -23,4 +23,4 @@
 
 ## Reference
 
-- [ssh_config](https://man.openbsd.org/ssh_config)
+[ssh_config](https://man.openbsd.org/ssh_config)

@@ -10,5 +10,5 @@ cp "$(pwd -P)/ruff.toml" "${WORKDIR}"
 
 ## Reference
 
-[Configuring Ruff](https://docs.astral.sh/ruff/configuration/)
-[Settings](https://docs.astral.sh/ruff/settings/)
+- [Configuring Ruff](https://docs.astral.sh/ruff/configuration/)
+- [Settings](https://docs.astral.sh/ruff/settings/)
