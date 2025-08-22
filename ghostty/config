@@ -1,0 +1,9 @@
+# appearance
+background-opacity = 0.8
+theme = dracula
+
+mouse-hide-while-typing = true
+quit-after-last-window-closed = true
+
+# enables notification if an update is available
+auto-update = check

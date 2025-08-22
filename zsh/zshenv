@@ -1,3 +1,0 @@
-# loaded when zsh starts
-
-. "$HOME/.cargo/env"

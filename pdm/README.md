@@ -1,8 +1,14 @@
-# PDM
+# Configurations for [`PDM`](https://pdm-project.org/en/latest/)
 
-## Configuration
+## Usage
 
 ```bash
-pdm config pypi.url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+# uses compatible version specifiers when adding a package
 pdm config strategy.save compatible
+# always updates all dependencies and sub-dependencies
+pdm config strategy.update all
 ```
+
+## Reference
+
+[Configurations](https://pdm-project.org/en/latest/reference/configuration/)

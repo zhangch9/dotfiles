@@ -1,5 +1,17 @@
 theme = "dracula"
 
+
 [editor]
+auto-pairs = false
+cursorline = true
+default-line-ending = "lf"
 line-number = "relative"
+# disable mouse mode
 mouse = false
+trim-final-newlines = true
+trim-trailing-whitespace = true
+
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"

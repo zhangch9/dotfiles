@@ -1,5 +1,6 @@
 # https://github.com/astral-sh/ruff/issues/8627
 exclude = [".git", ".mypy_cache", ".ruff_cache", ".venv", "dist"]
+# TODO: should be compatible with `requires-python` field in a nearby `pyproject.toml`
 target-version = "py310"
 line-length = 100
 indent-width = 4
@@ -20,6 +21,7 @@ select = [
   "TID",
   "TRY",
 ]
+# * disables preview mode
 preview = false
 
 
@@ -28,6 +30,9 @@ ignore-overlong-task-comments = true
 
 
 [format]
+# * always uses the Unix conversion
 line-ending = "lf"
 quote-style = "double"
 indent-style = "space"
+# * disables the unstable preview formatting
+preview = false

@@ -1,14 +1,26 @@
-# The `config` file for [OpenSSH](https://www.openssh.com/) clients
+# Client Configurations for [`OpenSSH`](https://www.openssh.com/)
 
 ## Usage
 
-```bash
-# (Optional) backup the existing configuration file
-mv ${HOME}/.ssh/config ${HOME}/.ssh/config.bak
-cp config ${HOME}/.ssh/config
-```
+- add the following lines to the top of `~/.ssh/config`
+
+  ```text
+  # Recommended configurations in [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+  Host *
+    # keeps connections alive
+    TCPKeepAlive yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 6
+    # uses compression in case of low-bandwidth connections
+    Compression yes
+    # enables multiplexing
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/%C
+    ControlPersist yes
+    # forwards the auth agent to the remote
+    ForwardAgent yes
+  ```
 
 ## Reference
 
 - [ssh_config](https://man.openbsd.org/ssh_config)
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)

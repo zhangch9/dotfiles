@@ -1,4 +1,4 @@
-# Configurations for [Alacritty](https://github.com/alacritty/alacritty)
+# Configurations for [`Alacritty`](https://alacritty.org/index.html)
 
 ## Usage
 
@@ -10,4 +10,4 @@ ln -s "$(pwd -P)" "${XDG_CONFIG_HOME}"
 
 ## Reference
 
-[Documentation](https://alacritty.org/config-alacritty.html)
+[Configuration](https://alacritty.org/config-alacritty.html)
