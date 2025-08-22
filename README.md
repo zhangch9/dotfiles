@@ -5,6 +5,7 @@ Configuration files for the following tools:
 - [`Alacritty`](./alacritty/)
 - [`Ghostty`](./ghostty/)
 - [`git`](./git/)
+- [`Hatch`](./hatch/)
 - [`Helix`](./helix/)
 - [`mpv`](./mpv/)
 - [`mypy`](./mypy/)

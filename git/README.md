@@ -48,6 +48,8 @@ and disable downloading large files on `clone` or `pull`
   git lfs install --skip-smudge
   ```
 
+- Use [`gitignore.io`](https://www.toptal.com/developers/gitignore) to create system-wise `gitignore` files.
+
 ## Reference
 
 - [git-tutorial](https://github.com/git/git/blob/master/Documentation/gittutorial.adoc)
